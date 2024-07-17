@@ -3,12 +3,12 @@ entries:
   acd-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-17T13:58:29.1783124+01:00"
+    created: "2024-07-17T14:23:11.2037469+01:00"
     description: A Helm chart for Kubernetes
-    digest: 9ad6479db21ee92f68d4aaa5a5947654b4f83c26545df7e29364d1f7ff865ba1
+    digest: a4574fe2e6e8fe3a0fc027a2286f558916d47d14f0ba7e6864219ec6ba736f40
     name: acd-helm
     type: application
     urls:
     - acd-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-17T13:58:29.1755922+01:00"
+generated: "2024-07-17T14:23:11.1879253+01:00"
