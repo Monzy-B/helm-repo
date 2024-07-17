@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata: 
   name: default
-  namespace: acd
+  namespace: argo
 spec:
   project: default
   source:
@@ -15,7 +15,7 @@ spec:
        - ./values.yaml
   destination:
     server: https://kubernetes.default.svc
-    namespace: acd
+    namespace: argo
   syncPolicy:
     automated:
       prune: true
